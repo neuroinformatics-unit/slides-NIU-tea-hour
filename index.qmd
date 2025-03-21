@@ -41,7 +41,41 @@ my-custom-stuff:
    my-reuseable-variable: "I can use this wherever I want in the markdown, and change it in only once place :)"
 ---
 
-# Introduction
+
+## Who we are
+
+::: {layout-nrow=1}
+
+![Laura Porta](img/laura_porta.png)
+
+![Chang Huan lo](img/chang_huan_lo.png)
+
+![Joe Ziminski](img/joe_ziminski.png)
+
+![Alessandro Felder](img/alessandro_felder.png)
+
+![Niko Sirmpilatze](img/niko_sirmpilatze.png)
+
+![Igor Tatarnikov](img/igor_tatarnikov.jpg)
+
+![Sofía Miñano](img/sofia_minano.png)
+:::
+
+## What we do
+
+:::{.incremental}
+- **Novel software** (anatomy, electrophysiology, functional imaging, behaviour, data management)
+- **Collaborations** (data science, software development, productionisation)
+- **Spreading knowledge** (teaching, documentation, ad-hoc help)
+:::
+
+## Aim of today
+:::{.incremental}
+- Let you know we exist
+- Introduce you to the tools we're building
+- Let you know about events
+- Solicit feedback
+:::
 
 # Data analysis
 
@@ -53,8 +87,36 @@ my-custom-stuff:
 
 ## BrainGlobe
 
+# Future goals
+## Integration
+:::{.incremental}
+- Streamline data processing
+- Align multimodal data streams
+- Enable arbitrary queries
+:::
+
 # Data management
 
 # Resources
+:::{.incremental}
+- [howto.neuroinformatics.dev](https://howto.neuroinformatics.dev/)
+- [python-cookiecutter.neuroinformatics.dev](https://python-cookiecutter.neuroinformatics.dev/)
+- [neuroinformatics.zulipchat.com](neuroinformatics.zulipchat.com)
+- [forum.image.sc](https://forum.image.sc/tag/brainglobe)
+:::
 
 # Teaching
+:::{.incremental}
+- ~7 days on the PhD program each year (everyone welcome)
+- Ad hoc courses
+- [software-skills.neuroinformatics.dev](https://software-skills.neuroinformatics.dev/)
+:::
+
+# NIU Open Software Week
+
+# End
+:::{.incremental}
+- Feedback (tools, teaching, anything)
+- Get involved
+- Get in touch whenever
+:::
