@@ -191,6 +191,16 @@ Light sheet fluorescence microscopy
 [Claudi, F. et al. (2021) “Visualizing anatomically registered data with Brainrender” eLife, 10:e65751](https://doi.org/10.7554/eLife.65751)
 :::
 
+## [`brainglobe-heatmap`](https://github.com/brainglobe/brainglobe-heatmap)
+
+![](img/brainglobe/brainglobe-heatmap.png){fig-align="center"}
+
+2D and 3D heatmaps of e.g. cellfinder results.
+
+::: footer
+[Claudi, F. et al. (2024) "brainglobe/brainglobe-heatmap"](https://doi.org/10.5281/zenodo.10375287)
+:::
+
 # Version 2
 Expanding access
 
