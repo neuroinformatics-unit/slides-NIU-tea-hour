@@ -4,8 +4,8 @@ execute:
   enabled: true
 format:
     revealjs:
-        theme: [default, niu-dark.scss]
-        logo: img/logo_niu_dark.png
+        theme: [default, niu-light.scss]
+        logo: img/logo_niu_light.png
         footer: "Tea hour | 2025-04-11"
         slide-number: c
         menu:
@@ -24,8 +24,8 @@ format:
           fontFamily: arial
           curve: linear
     html:
-        theme: [default, niu-dark.scss]
-        logo: img/logo_niu_dark.png
+        theme: [default, niu-light.scss]
+        logo: img/logo_niu_light.png
         date: "2023-07-05"
         toc: true
         code-overflow: scroll
@@ -85,7 +85,7 @@ my-custom-stuff:
 
 ## Optophysiology
 
-## BrainGlobe
+{{< include brainglobe.qmd >}}
 
 # Future goals
 ## Integration
