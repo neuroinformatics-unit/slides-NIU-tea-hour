@@ -1,3 +1,14 @@
+meta:
+  name:
+    short: NIU
+    full: Neuroinformatics Unit
+  link:
+    home: https://neuroinformatics.dev
+    github: https://github.com/neuroinformatics-unit
+    bluesky: https://bsky.app/profile/neuroinformatics.dev
+    mastodon: https://mastodon.online/@neuroinformatics
+    zulip: https://neuroinformatics.zulipchat.com
+
 logo:
   medium: "img/logo_niu_light.png"
 
@@ -48,11 +59,11 @@ defaults:
         auto-animate: true
         auto-play-media: true
         code-overflow: wrap
-        highlight-style: atom-one
+        highlight-style: github
 
       html:
         toc: true
         code-overflow: scroll
-        highlight-style: atom-one
+        highlight-style: github
         embed-resources: true
         page-layout: full
