@@ -43,27 +43,3 @@ typography:
     color: primary
   monospace:
     family: JetBrains Mono
-
-defaults:
-  quarto:
-    format:
-      revealjs:
-        slide-number: c
-        menu:
-            numbers: true
-        chalkboard: true
-        scrollable: true
-        preview-links: false
-        view-distance: 10
-        mobile-view-distance: 10
-        auto-animate: true
-        auto-play-media: true
-        code-overflow: wrap
-        highlight-style: github
-
-      html:
-        toc: true
-        code-overflow: scroll
-        highlight-style: github
-        embed-resources: true
-        page-layout: full
