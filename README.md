@@ -3,7 +3,7 @@
 ## Prerequisites
 
 You only need to do these once locally. 
-* Install [Quarto](https://quarto.org/docs/get-started/)
+* Install [Quarto >= 1.6](https://quarto.org/docs/get-started/)
 * Install the [VS Code Quarto extension](https://quarto.org/docs/get-started/hello/vscode.html)
 
 ## Create a new presentation
