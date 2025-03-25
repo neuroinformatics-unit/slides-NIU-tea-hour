@@ -7,7 +7,6 @@ color:
     dark-grey: "#1E1E1E"
     niu-green: "#03A062"
     niu-green-dark: "#04B46D"
-    niu-purple: rgb(238 144 64)
     bg-orange: "#EE9040"
     bg-blue: "#459db9"
   background: white
