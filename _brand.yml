@@ -1,0 +1,59 @@
+logo:
+  medium: "img/logo_niu_light.png"
+
+color:
+  palette:
+    white: "#FFFFFF"
+    dark-grey: "#1E1E1E"
+    niu-green: "#03A062"
+    niu-green-dark: "#04B46D"
+    niu-purple: rgb(238 144 64)
+    bg-orange: "#EE9040"
+    bg-blue: "#459db9"
+  background: white
+  foreground: dark-grey
+  primary: niu-green
+  info: bg-blue
+  success: "niu-green"
+  warning: "bg-orange"
+
+
+typography:
+  fonts:
+    - family: Barlow
+      source: google
+    - family: JetBrains Mono
+      source: google
+  base:
+    family: Barlow
+  headings:
+    family: Barlow
+    weight: 600
+  link:
+    color: primary
+  monospace:
+    family: JetBrains Mono
+
+defaults:
+  quarto:
+    format:
+      revealjs:
+        slide-number: c
+        menu:
+            numbers: true
+        chalkboard: true
+        scrollable: true
+        preview-links: false
+        view-distance: 10
+        mobile-view-distance: 10
+        auto-animate: true
+        auto-play-media: true
+        code-overflow: wrap
+        highlight-style: atom-one
+
+      html:
+        toc: true
+        code-overflow: scroll
+        highlight-style: atom-one
+        embed-resources: true
+        page-layout: full
