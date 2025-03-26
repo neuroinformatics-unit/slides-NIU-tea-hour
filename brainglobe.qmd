@@ -195,9 +195,13 @@ Light sheet fluorescence microscopy
 
 ![](img/brainglobe/brainglobe-heatmap.png){fig-align="center"}
 
-2D and 3D heatmaps of e.g. cellfinder results.
+::: {style="font-size: 50%;"}
+Adapted from Figure 1 of Hansen et al. (2025)
+:::
 
 ::: footer
+[Hansen, J. Y. et al. (2025) "Synaptome architecture shapes regional dynamics in the mouse brain"](https://doi.org/10.1101/2025.01.24.634803)
+
 [Claudi, F. et al. (2024) "brainglobe/brainglobe-heatmap"](https://doi.org/10.5281/zenodo.10375287)
 :::
 
