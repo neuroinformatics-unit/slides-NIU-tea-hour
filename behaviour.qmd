@@ -1,0 +1,17 @@
+## Behaviour
+
+Modern computational (neuro)ethology
+
+## movement: overview
+
+
+## movement: example application
+
+
+## movement: GUI demo
+
+
+## movement: future directions
+
+
+## ethology: overview

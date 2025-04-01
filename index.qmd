@@ -67,7 +67,7 @@ my-custom-stuff:
 
 # Data analysis
 
-## Behaviour
+{{< include behaviour.qmd >}}
 
 ## Electrophysiology
 
