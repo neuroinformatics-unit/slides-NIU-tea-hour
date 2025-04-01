@@ -4,8 +4,13 @@ Modern computational (neuro)ethology
 
 ## movement: overview
 
+![](img/behaviour/movement_overview.png){fig-align=center}
 
-## movement: example application
+::: footer
+[movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
+:::
+
+## movement: example applications
 
 
 ## movement: GUI demo
