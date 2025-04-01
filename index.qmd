@@ -83,7 +83,7 @@ my-custom-stuff:
 
 ## Electrophysiology
 
-## Optophysiology
+{{< include optophysiology.qmd >}}
 
 {{< include brainglobe.qmd >}}
 
