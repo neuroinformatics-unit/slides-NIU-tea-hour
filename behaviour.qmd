@@ -79,10 +79,22 @@ WIP with contributions from GSoCer ☀️ `@parikshit14`
 ::: {.column width="60%"}
 - mix-and-match computer vision tools  
 - For example:
-    - _Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._
-
+    - _Programmatically curate manual annotations_    
 :::
 
 ::: {.column width="40%"}
 :::
 :::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
