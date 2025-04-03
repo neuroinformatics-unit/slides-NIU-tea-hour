@@ -1,0 +1,75 @@
+## Electrophysiology
+
+### SpikeInterface
+![](img/electrophysiology/spikeinterface.png)
+
+::: footer
+[spikeinterface.readthedocs.io](https://spikeinterface.readthedocs.io/en/stable/)
+:::
+
+## SpikeWrap
+
+- SpikeInterface wrapper
+- Process entire experiment
+- HPC SLURM support
+
+::: footer
+[spikewrap.neuroinformatics.dev](https://spikewrap.neuroinformatics.dev/)
+:::
+
+## SpikeWrap {.smaller}
+```python
+import spikewrap as sw
+
+subject_path = sw.get_example_data_path() / "rawdata" / "sub-001"
+
+session = sw.Session(
+    subject_path=subject_path,
+    session_name="ses-001",
+    file_format="spikeglx",  # or "openephys"
+    run_names="all",
+    probe=None,  # optional argument to set probe (neuropixels auto-detected)
+)
+
+session.save_sync_channel()
+
+session.preprocess(
+    configs="neuropixels+kilosort2_5",
+    per_shank=True,
+    concat_runs=False,
+)
+
+session.save_preprocessed(
+    overwrite=True,
+    n_jobs=12,
+    slurm=True
+)
+```
+
+::: footer
+[spikewrap.neuroinformatics.dev](https://spikewrap.neuroinformatics.dev/)
+:::
+
+## SpikeWrap
+```
+└── derivatives/
+    └── sub-001/
+        └── ses-001/
+            └── ephys/
+                ├── run-001/
+                │   ├── preprocessed/
+                │   │   ├── shank_0/
+                │   │   │   └── si_recording/
+                │   │   │       └── <spikeinterface binary>
+                │   │   └── shank_1/
+                │   │       └── si_recording/
+                │   │           └── <spikeinterface binary>      
+                │   └── sync/
+                │       └── sync_channel.npy
+                └── run-002/
+                    └── ...    
+```
+
+::: footer
+[spikewrap.neuroinformatics.dev](https://spikewrap.neuroinformatics.dev/)
+:::

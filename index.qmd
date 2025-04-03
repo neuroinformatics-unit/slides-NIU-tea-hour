@@ -69,7 +69,7 @@ my-custom-stuff:
 
 ## Behaviour
 
-## Electrophysiology
+{{< include electrophysiology.qmd >}}
 
 ## Optophysiology
 
