@@ -36,7 +36,7 @@ my-custom-stuff:
 
 ![Laura Porta](img/laura_porta.png)
 
-![Chang Huan lo](img/chang_huan_lo.png)
+![Chang Huan Lo](img/chang_huan_lo.png)
 
 ![Joe Ziminski](img/joe_ziminski.png)
 
