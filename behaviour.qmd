@@ -14,9 +14,16 @@ Modern computational (neuro)ethology
 
 
 ## movement: GUI demo
-
+{{< brand color primary >}}
 
 ## movement: future directions
 
+:::{.incremental}
+- Annotate space with regions of interest
+- Annotate time with events of interest
+- Align motion tracks with neurophysiological signals
+- Bring more capabilities to the GUI
+- More specialised metrics, useful for spatial navigation, social interactions, collective behaviour...
+:::
 
 ## ethology: overview
