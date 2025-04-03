@@ -17,6 +17,7 @@ format:
     auto-play-media: true
     code-overflow: wrap
     highlight-style: atom-one
+    css: custom.css
   html:    # settings for rendering to single html webpage
     date: "2025-04-11"
     toc: true
@@ -32,21 +33,23 @@ my-custom-stuff:
 
 ## Who we are
 
-::: {layout-nrow=1}
+::: {layout-nrow=2 .people}
 
-![Laura Porta](img/laura_porta.png)
+![Adam Tyson](img/adam_tyson.jpg){fig-align="left"}
 
-![Chang Huan Lo](img/chang_huan_lo.png)
+![Laura Porta](img/laura_porta.png){fig-align="left"}
 
-![Joe Ziminski](img/joe_ziminski.png)
+![Chang Huan Lo](img/chang_huan_lo.png){fig-align="left"}
 
-![Alessandro Felder](img/alessandro_felder.png)
+![Joe Ziminski](img/joe_ziminski.png){fig-align="left"}
 
-![Niko Sirmpilatze](img/niko_sirmpilatze.png)
+![Alessandro Felder](img/alessandro_felder.png){fig-align="left"}
 
-![Igor Tatarnikov](img/igor_tatarnikov.jpg)
+![Niko Sirmpilatze](img/niko_sirmpilatze.png){fig-align="left"}
 
-![Sofía Miñano](img/sofia_minano.png)
+![Igor Tatarnikov](img/igor_tatarnikov.jpg){fig-align="left"}
+
+![Sofía Miñano](img/sofia_minano.png){fig-align="left"}
 :::
 
 ## What we do
