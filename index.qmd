@@ -105,6 +105,8 @@ my-custom-stuff:
 # End
 :::{.incremental}
 - Feedback (tools, teaching, anything)
+- Get in touch
 - Get involved
-- Get in touch whenever
+
+[neuroinformatics.dev](https://neuroinformatics.dev/)
 :::
