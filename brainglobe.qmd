@@ -135,7 +135,7 @@ Whole brain microscopy
 ![](img/brainglobe/brainglobe-heatmap.png){fig-align="center"}
 
 ::: {style="font-size: 50%;"}
-Adapted from Figure 1 of Hansen et al. (2025) doi.org/10.1101/2025.01.24.634803
+Adapted from Figure 1 of Hansen et al. (2025) [doi.org/10.1101/2025.01.24.634803](https://doi.org/10.1101/2025.01.24.634803)
 :::
 
 ::: footer
