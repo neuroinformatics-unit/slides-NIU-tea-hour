@@ -1,0 +1,100 @@
+## Behaviour
+
+Modern computational (neuro)ethology
+
+## movement: overview
+
+
+## movement: example application
+
+
+## movement: GUI demo
+<!-- showcase tracks + GUI (1 slide) -> Sofía, with feedback from Niko -->
+
+
+## movement: future directions
+
+## ethology: overview
+<!-- bringing less common computer vision tools to researchers -->
+::: {.columns}
+
+::: {.column width="60%"}
+:::{.incremental}
+- mix-and-match computer vision tools  
+- For example:
+:::
+:::
+
+::: {.column width="40%"}
+:::
+
+:::
+
+## ethology: overview
+<!-- bringing less common computer vision tools to researchers -->
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Use SLEAP annotations as prompts for segementation models, such as SAM2._
+:::
+
+::: {.column width="40%"}
+{{< video img/ethology/sam2_demo.mp4 >}}
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _or as prompts for tracking-any-point models, such as cotracker3 or TAPIR._
+:::
+
+::: {.column width="40%"}
+<!-- cotracker3 image -->
+{{< video img/ethology/cotracker_demo.mp4 >}}
+WIP with contributions from GSoCer ☀️ `@parikshit14`
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Use few-shot detectors to assist labelling_
+
+:::
+
+::: {.column width="40%"}
+<!-- few shot image -->
+![](img/ethology/few_shot_demo.png){width=100%}
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Programmatically curate manual annotations_    
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
