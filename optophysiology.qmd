@@ -6,7 +6,7 @@ Tools for multiphoton calcium imaging.
 #### Derotation
 ![](img/optophysiology/derotation.gif)
 
-A package to derotate multi-photon movies which have been acquired with a rotating stage. Almost completed.
+Derotation of multiphoton movies acquired with a rotating stage. Almost completed.
 :::
 ::: {.column width="35%"}
 #### Photon-mosaic
