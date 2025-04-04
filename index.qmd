@@ -83,7 +83,7 @@ my-custom-stuff:
 - Enable arbitrary queries
 :::
 
-# Data management
+{{< include data-management.qmd >}}
 
 # Resources
 :::{.incremental}

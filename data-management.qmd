@@ -1,0 +1,112 @@
+# Data management
+
+![](img/data-management/data-organisation-over-time.jpg)
+
+::: footer
+Image source: [ErrantScience](https://errantscience.com/)
+:::
+
+## The NeuroBlueprint specification {.smaller}
+
+:::: {.columns}
+::: {.column width="45%"}
+
+![](img/data-management/NeuroBlueprint_project_tree_light.png)
+
+:::
+
+:::{.column width="55%"}
+
+:::{.fragment}
+```{.bash filename="Example project" code-line-numbers="false"}
+└── project/
+    ├── rawdata/
+    │   └── sub-001_id-5645332/
+    │       ├── ses-01_date-20230310/
+    │       │   ├── ephys/
+    │       │   │   ├── sub-001_ses-01_recording-01.bin
+    │       │   │   └── sub-001_ses-01_probe-3A.imec0
+    │       │   └── behav/
+    │       │       ├── sub-001_ses-01_camera-01.wav
+    │       │       └── sub-001_ses-01_data-responses.csv
+    │       └── ses-02_date-20230311/
+    │           └── anat/
+    │               └── sub-001_image-brain.tiff
+    └── derivatives/
+        └── sub-001_id-5645332/
+            ├── ses-01_date-20230310/
+            │   ├── ephys/
+            │   │   └── sub-001_ses-01_data-spikes.npy
+            │   └── behav/
+            │       └── sub-001_ses-01_data-poses.csv
+            └── ses-02_date-20230311/
+                └── anat/
+                    └── sub-001_data-cellcounts.csv
+```
+:::
+
+:::
+:::::
+
+::: footer
+[neuroblueprint.neuroinformatics.dev](https://neuroblueprint.neuroinformatics.dev/){fig-align="center"}
+:::
+
+## DataShuttle {.smaller}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![](img/data-management/datashuttle-overview-light.png){fig-align=left}
+:::
+
+::: {.column width="40%"}
+
+::: {.fragment}
+- Validate existing projects
+- Create and configure new projects
+- Create folders with real-time validation
+- Upload and download data
+- Keep logs of all actions
+:::
+
+:::
+::::
+
+::: footer
+[datashuttle.neuroinformatics.dev](https://datashuttle.neuroinformatics.dev/){fig-align="center"}
+:::
+
+
+## DataShuttle TUI {.smaller}
+
+![TUI: Terminal User Interface](img/data-management/datashuttle-tui-transfer.png){fig-align=left}
+
+## DataShuttle Python API {.smaller}
+
+```{.python filename="my_script.py" code-line-numbers="false"}
+from datashuttle import DataShuttle
+
+project = DataShuttle("my_first_project")
+project.make_config_file(
+    local_path=r"C:\Users\Joe\data\local\my_first_project",
+    central_path=r"C:\Users\Joe\data\central\my_first_project",
+    connection_method="local_filesystem",
+)
+
+project.create_folders(
+    top_level_folder="rawdata",
+    sub_names="sub-001",
+    ses_names="ses-001_@DATE@",
+    datatype=["behav", "ephys"]
+)
+
+project.upload_entire_project()
+
+project.download_custom(
+    top_level_folder="rawdata",
+    sub_names="all",
+    ses_names="ses-001_@*@",
+    datatype="behav"
+)
+```
