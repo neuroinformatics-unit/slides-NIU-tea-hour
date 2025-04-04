@@ -8,51 +8,14 @@ Image source: [ErrantScience](https://errantscience.com/)
 
 ## The NeuroBlueprint specification {.smaller}
 
-:::: {.columns}
-::: {.column width="45%"}
-
 ![](img/data-management/NeuroBlueprint_project_tree_light.png)
 
-:::
-
-:::{.column width="55%"}
-
-:::{.fragment}
-```{.bash filename="Example project" code-line-numbers="false"}
-└── project/
-    ├── rawdata/
-    │   └── sub-001_id-5645332/
-    │       ├── ses-01_date-20230310/
-    │       │   ├── ephys/
-    │       │   │   ├── sub-001_ses-01_recording-01.bin
-    │       │   │   └── sub-001_ses-01_probe-3A.imec0
-    │       │   └── behav/
-    │       │       ├── sub-001_ses-01_camera-01.wav
-    │       │       └── sub-001_ses-01_data-responses.csv
-    │       └── ses-02_date-20230311/
-    │           └── anat/
-    │               └── sub-001_image-brain.tiff
-    └── derivatives/
-        └── sub-001_id-5645332/
-            ├── ses-01_date-20230310/
-            │   ├── ephys/
-            │   │   └── sub-001_ses-01_data-spikes.npy
-            │   └── behav/
-            │       └── sub-001_ses-01_data-poses.csv
-            └── ses-02_date-20230311/
-                └── anat/
-                    └── sub-001_data-cellcounts.csv
-```
-:::
-
-:::
-:::::
 
 ::: footer
 [neuroblueprint.neuroinformatics.dev](https://neuroblueprint.neuroinformatics.dev/){fig-align="center"}
 :::
 
-## DataShuttle {.smaller}
+## `datashuttle` {.smaller}
 
 :::: {.columns}
 
@@ -78,13 +41,13 @@ Image source: [ErrantScience](https://errantscience.com/)
 :::
 
 
-## DataShuttle TUI {.smaller}
+## `datashuttle` TUI {.smaller}
 
-![TUI: Terminal User Interface](img/data-management/datashuttle-tui-transfer.png){fig-align=left}
+![TUI: Terminal User Interface | Works cross-platform, including on HPC](img/data-management/datashuttle-tui-transfer.png){fig-align=left}
 
-## DataShuttle Python API {.smaller}
+## `datashuttle` Python API {.smaller}
 
-```{.python filename="my_script.py" code-line-numbers="1-8|10-15|17|19-24"}
+```{.python filename="my_script.py"}
 from datashuttle import DataShuttle
 
 project = DataShuttle("my_first_project")
