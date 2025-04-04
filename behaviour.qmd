@@ -45,13 +45,13 @@ Modern computational neuroethology workflow
 
 ## `ethology`: mix-and-match computer vision tools
 
-{{< video img/behaviour/sam2_demo_flipped.mp4 >}}
+{{< video img/behaviour/sam2_demo_flipped.mp4 aspect-ratio="4x3" >}}
 
-<!-- Mix and match computer vision tools, compare performance of equiv methods -->
-<!-- - Use annotations as prompts for segmentation models, such as Segment Anything._ -->
+<!-- - Mix and match computer vision tools, compare performance of equivalent methods -->
+<!-- - Use annotations as prompts for segmentation models, such as Segment Anything. -->
 <!-- - Programmatically curate manual annotations -->
 <!-- - Use track-anything-models, compare trackers -->
-<!-- _Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._ -->
+<!-- - Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._ -->
 
 
 
