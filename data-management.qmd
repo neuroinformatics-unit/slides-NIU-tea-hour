@@ -84,7 +84,7 @@ Image source: [ErrantScience](https://errantscience.com/)
 
 ## DataShuttle Python API {.smaller}
 
-```{.python filename="my_script.py" code-line-numbers="false"}
+```{.python filename="my_script.py" code-line-numbers="1-8|10-15|17|19-24"}
 from datashuttle import DataShuttle
 
 project = DataShuttle("my_first_project")
