@@ -1,0 +1,8 @@
+.people .quarto-figure, .people figure, .people figcaption{
+    margin: 0;
+}
+
+.people .quarto-layout-cell img {
+    max-height: 80%; 
+    max-width: 80%; 
+}
