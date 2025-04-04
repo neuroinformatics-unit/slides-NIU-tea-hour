@@ -15,7 +15,7 @@ Image source: [ErrantScience](https://errantscience.com/)
 [neuroblueprint.neuroinformatics.dev](https://neuroblueprint.neuroinformatics.dev/){fig-align="center"}
 :::
 
-## DataShuttle {.smaller}
+## `datashuttle` {.smaller}
 
 :::: {.columns}
 
@@ -41,11 +41,11 @@ Image source: [ErrantScience](https://errantscience.com/)
 :::
 
 
-## DataShuttle TUI {.smaller}
+## `datashuttle` TUI {.smaller}
 
 ![TUI: Terminal User Interface](img/data-management/datashuttle-tui-transfer.png){fig-align=left}
 
-## DataShuttle Python API {.smaller}
+## `datashuttle` Python API {.smaller}
 
 ```{.python filename="my_script.py" code-line-numbers="1-8|10-15|17|19-24"}
 from datashuttle import DataShuttle
