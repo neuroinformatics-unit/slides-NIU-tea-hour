@@ -26,7 +26,7 @@ Modern computational neuroethology workflow
 
 
 ## `movement` GUI
-{{< video "img/movement/gui_tracks_demo.mp4" >}}
+{{< video "img/behaviour/gui_tracks_demo.mp4" >}}
 
 
 ## `movement` future directions
@@ -69,7 +69,7 @@ Modern computational neuroethology workflow
 :::
 
 ::: {.column width="40%"}
-{{< video img/ethology/sam2_demo.mp4 >}}
+{{< video img/behaviour/sam2_demo.mp4 >}}
 :::
 :::
 
@@ -83,7 +83,7 @@ Modern computational neuroethology workflow
 
 ::: {.column width="40%"}
 <!-- cotracker3 image -->
-{{< video img/ethology/cotracker_demo.mp4 >}}
+{{< video img/behaviour/cotracker_demo.mp4 >}}
 WIP with contributions from GSoCer ☀️ `@parikshit14`
 :::
 :::
@@ -99,7 +99,7 @@ WIP with contributions from GSoCer ☀️ `@parikshit14`
 
 ::: {.column width="40%"}
 <!-- few shot image -->
-![](img/ethology/few_shot_demo.png){width=100%}
+![](img/behaviour/few_shot_demo.png){width=100%}
 :::
 :::
 
