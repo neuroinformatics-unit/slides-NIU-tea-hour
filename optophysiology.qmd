@@ -1,0 +1,18 @@
+## Optophysiology {.smaller}
+Tools for multiphoton calcium imaging.
+
+::: {.columns}
+::: {.column width="65%"}
+#### Derotation
+![](img/optophysiology/derotation.gif)
+
+Derotation of multiphoton movies acquired with a rotating stage. Almost completed.
+:::
+::: {.column width="35%"}
+#### Photon-mosaic
+![](img/optophysiology/photon-mosaic.png)
+
+Snakemake workflow to run calcium imaging pipelines in the cluster.
+In development.
+:::
+:::

@@ -1,17 +1,128 @@
 ## Behaviour
 
-Modern computational (neuro)ethology
+![](img/behaviour/neuroethology_workflow.png)
 
-## movement: overview
+::: footer
+Modern computational neuroethology workflow
+:::
+
+## Behaviour {auto-animate=true auto-animate-easing="ease-in-out"}
+
+![](img/behaviour/neuroethology_workflow_annot.png)
+
+::: footer
+Modern computational neuroethology workflow
+:::
+
+## `movement` overview
+
+![](img/behaviour/movement_overview.png)
+
+::: footer
+[movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
+:::
+
+## `movement` example applications
 
 
-## movement: example application
-
-
-## movement: GUI demo 
+## `movement` GUI
 {{< video "img/movement/gui_tracks_demo.mp4" >}}
 
-## movement: future directions
 
+## `movement` future directions
+
+:::{.incremental}
+- Annotate space with regions of interest
+- Annotate time with events of interest
+- Align motion tracks with neurophysiological signals
+- Bring more capabilities to the GUI
+- More specialised metrics, useful for spatial navigation, social interactions, collective behaviour...
+:::
+
+::: footer
+[Join the movement!](https://movement.neuroinformatics.dev/community/index.html)
+:::
 
 ## ethology: overview
+<!-- bringing less common computer vision tools to researchers -->
+::: {.columns}
+
+::: {.column width="60%"}
+:::{.incremental}
+- mix-and-match computer vision tools  
+- For example:
+:::
+:::
+
+::: {.column width="40%"}
+:::
+
+:::
+
+## ethology: overview
+<!-- bringing less common computer vision tools to researchers -->
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Use SLEAP annotations as prompts for segementation models, such as SAM2._
+:::
+
+::: {.column width="40%"}
+{{< video img/ethology/sam2_demo.mp4 >}}
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _or as prompts for tracking-any-point models, such as cotracker3 or TAPIR._
+:::
+
+::: {.column width="40%"}
+<!-- cotracker3 image -->
+{{< video img/ethology/cotracker_demo.mp4 >}}
+WIP with contributions from GSoCer ☀️ `@parikshit14`
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Use few-shot detectors to assist labelling_
+
+:::
+
+::: {.column width="40%"}
+<!-- few shot image -->
+![](img/ethology/few_shot_demo.png){width=100%}
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Programmatically curate manual annotations_    
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## ethology: overview
+::: {.columns}
+::: {.column width="60%"}
+- mix-and-match computer vision tools  
+- For example:
+    - _Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._
+:::
+
+::: {.column width="40%"}
+:::
+:::
