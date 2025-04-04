@@ -8,8 +8,8 @@ Modern computational (neuro)ethology
 ## movement: example application
 
 
-## movement: GUI demo
-
+## movement: GUI demo 
+{{< video "img/movement/gui_tracks_demo.mp4" >}}
 
 ## movement: future directions
 
