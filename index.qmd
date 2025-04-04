@@ -71,7 +71,7 @@ my-custom-stuff:
 
 {{< include electrophysiology.qmd >}}
 
-## Optophysiology
+{{< include optophysiology.qmd >}}
 
 {{< include brainglobe.qmd >}}
 
