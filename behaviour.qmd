@@ -1,18 +1,46 @@
 ## Behaviour
 
-Modern computational (neuro)ethology
+![](img/behaviour/neuroethology_workflow.png)
 
-## movement: overview
+::: footer
+Modern computational neuroethology workflow
+:::
+
+## Behaviour {auto-animate=true auto-animate-easing="ease-in-out"}
+
+![](img/behaviour/neuroethology_workflow_annot.png)
+
+::: footer
+Modern computational neuroethology workflow
+:::
+
+## `movement` overview
+
+![](img/behaviour/movement_overview.png)
+
+::: footer
+[movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
+:::
+
+## `movement` example applications
 
 
-## movement: example application
+## `movement` GUI
 
 
-## movement: GUI demo
-<!-- showcase tracks + GUI (1 slide) -> Sofía, with feedback from Niko -->
+## `movement` future directions
 
+:::{.incremental}
+- Annotate space with regions of interest
+- Annotate time with events of interest
+- Align motion tracks with neurophysiological signals
+- Bring more capabilities to the GUI
+- More specialised metrics, useful for spatial navigation, social interactions, collective behaviour...
+:::
 
-## movement: future directions
+::: footer
+[Join the movement!](https://movement.neuroinformatics.dev/community/index.html)
+:::
 
 ## ethology: overview
 <!-- bringing less common computer vision tools to researchers -->
