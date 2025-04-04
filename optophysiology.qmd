@@ -1,5 +1,5 @@
 ## Optophysiology {.smaller}
-Specific and general purpose tools for multi-photon calcium imaging.
+Tools for multiphoton calcium imaging.
 
 ::: {.columns}
 ::: {.column width="65%"}
