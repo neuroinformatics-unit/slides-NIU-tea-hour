@@ -43,7 +43,7 @@ Image source: [ErrantScience](https://errantscience.com/)
 
 ## `datashuttle` TUI {.smaller}
 
-![TUI: Terminal User Interface](img/data-management/datashuttle-tui-transfer.png){fig-align=left}
+![TUI: Terminal User Interface | Works cross-platform, including on HPC](img/data-management/datashuttle-tui-transfer.png){fig-align=left}
 
 ## `datashuttle` Python API {.smaller}
 
