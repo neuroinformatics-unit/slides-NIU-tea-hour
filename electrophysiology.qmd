@@ -50,7 +50,7 @@ session.save_preprocessed(
 [spikewrap.neuroinformatics.dev](https://spikewrap.neuroinformatics.dev/)
 :::
 
-## SpikeWrap
+## SpikeWrap {.smaller}
 ```
 └── derivatives/
     └── sub-001/
