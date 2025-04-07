@@ -28,86 +28,17 @@ Modern computational neuroethology workflow
 ## `movement` GUI
 {{< video "img/behaviour/gui_tracks_demo.mp4" >}}
 
-## ethology: overview
-<!-- bringing less common computer vision tools to researchers -->
-::: {.columns}
 
-::: {.column width="60%"}
-:::{.incremental}
-- mix-and-match computer vision tools  
-- For example:
-:::
-:::
+## `ethology`: mix-and-match computer vision tools
 
-::: {.column width="40%"}
-:::
 
-:::
+{{< video img/behaviour/sam2_demo_flipped.mp4 aspect-ratio="4x3" >}}
 
-## ethology: overview
-<!-- bringing less common computer vision tools to researchers -->
-::: {.columns}
-::: {.column width="60%"}
-- mix-and-match computer vision tools  
-- For example:
-    - _Use SLEAP annotations as prompts for segementation models, such as SAM2._
-:::
+<!-- - Mix and match computer vision tools, compare performance of equivalent methods -->
+<!-- - Use annotations as prompts for segmentation models, such as Segment Anything. -->
+<!-- - Programmatically curate manual annotations -->
+<!-- - Use track-anything-models, compare trackers -->
+<!-- - Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._ -->
 
-::: {.column width="40%"}
-{{< video img/behaviour/sam2_demo.mp4 >}}
-:::
-:::
 
-## ethology: overview
-::: {.columns}
-::: {.column width="60%"}
-- mix-and-match computer vision tools  
-- For example:
-    - _or as prompts for tracking-any-point models, such as cotracker3 or TAPIR._
-:::
 
-::: {.column width="40%"}
-<!-- cotracker3 image -->
-{{< video img/behaviour/cotracker_demo.mp4 >}}
-WIP with contributions from GSoCer ☀️ `@parikshit14`
-:::
-:::
-
-## ethology: overview
-::: {.columns}
-::: {.column width="60%"}
-- mix-and-match computer vision tools  
-- For example:
-    - _Use few-shot detectors to assist labelling_
-
-:::
-
-::: {.column width="40%"}
-<!-- few shot image -->
-![](img/behaviour/few_shot_demo.png){width=100%}
-:::
-:::
-
-## ethology: overview
-::: {.columns}
-::: {.column width="60%"}
-- mix-and-match computer vision tools  
-- For example:
-    - _Programmatically curate manual annotations_    
-:::
-
-::: {.column width="40%"}
-:::
-:::
-
-## ethology: overview
-::: {.columns}
-::: {.column width="60%"}
-- mix-and-match computer vision tools  
-- For example:
-    - _Support common video utilities: cropping frame size, compressing videos, clipping videos, identifying outlier frames..._
-:::
-
-::: {.column width="40%"}
-:::
-:::
