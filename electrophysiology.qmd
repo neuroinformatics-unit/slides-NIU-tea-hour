@@ -1,6 +1,5 @@
 ## Electrophysiology
 
-### SpikeInterface
 ![](img/electrophysiology/spikeinterface.png)
 
 ::: footer
@@ -44,30 +43,6 @@ session.save_preprocessed(
     n_jobs=12,
     slurm=True
 )
-```
-
-::: footer
-[spikewrap.neuroinformatics.dev](https://spikewrap.neuroinformatics.dev/)
-:::
-
-## SpikeWrap {.smaller}
-```
-└── derivatives/
-    └── sub-001/
-        └── ses-001/
-            └── ephys/
-                ├── run-001/
-                │   ├── preprocessed/
-                │   │   ├── shank_0/
-                │   │   │   └── si_recording/
-                │   │   │       └── <spikeinterface binary>
-                │   │   └── shank_1/
-                │   │       └── si_recording/
-                │   │           └── <spikeinterface binary>      
-                │   └── sync/
-                │       └── sync_channel.npy
-                └── run-002/
-                    └── ...    
 ```
 
 ::: footer
