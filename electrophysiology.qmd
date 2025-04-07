@@ -6,7 +6,7 @@
 [spikeinterface.readthedocs.io](https://spikeinterface.readthedocs.io/en/stable/)
 :::
 
-## SpikeWrap
+## `spikewrap`
 
 - SpikeInterface wrapper
 - Process entire experiment
@@ -16,7 +16,7 @@
 [spikewrap.neuroinformatics.dev](https://spikewrap.neuroinformatics.dev/)
 :::
 
-## SpikeWrap {.smaller}
+## `spikewrap` {.smaller}
 ```python
 import spikewrap as sw
 
