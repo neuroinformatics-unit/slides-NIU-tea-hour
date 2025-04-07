@@ -146,16 +146,6 @@ Adapted from Figure 1 of [Hansen et al. (2025)](https://doi.org/10.1101/2025.01.
 # Version 2
 Expanding access
 
-## Adding new atlases {.smaller}
-- Latest version of Waxholm rat
-- Axolotl
-- Prarie Vole
-- Princeton RAtlas
-- Cuttlefish
-- Developmental Mouse Brain atlas
-- NHP
-- Human
-
 ## [Building novel atlases](https://github.com/brainglobe/brainglobe-template-builder)
 ![](img/brainglobe/blackcap.gif){fig-align="center"}
 

@@ -51,9 +51,9 @@ my-custom-stuff:
 ## What we do
 
 :::{.incremental}
-- **Novel software** (anatomy, electrophysiology, functional imaging, behaviour, data management)
-- **Collaborations** (data science, software development, productionisation)
-- **Spreading knowledge** (teaching, documentation, ad-hoc help)
+- **Novel software:** anatomy, electrophysiology, functional imaging, behaviour, data management
+- **Collaborations:** data science, software development, productionisation
+- **Spreading knowledge:** teaching, documentation, ad-hoc help
 :::
 
 ## Aim of today
@@ -84,13 +84,6 @@ my-custom-stuff:
 
 {{< include data-management.qmd >}}
 
-# Resources
-:::{.incremental}
-- [howto.neuroinformatics.dev](https://howto.neuroinformatics.dev/)
-- [python-cookiecutter.neuroinformatics.dev](https://python-cookiecutter.neuroinformatics.dev/)
-- [neuroinformatics.zulipchat.com](neuroinformatics.zulipchat.com)
-- [forum.image.sc](https://forum.image.sc/tag/brainglobe)
-:::
 
 # Teaching
 :::{.incremental}
@@ -106,6 +99,9 @@ my-custom-stuff:
 - Feedback (tools, teaching, anything)
 - Get in touch
 - Get involved
-
-[neuroinformatics.dev](https://neuroinformatics.dev/)
 :::
+
+# Resources
+- [neuroinformatics.dev](https://neuroinformatics.dev/)
+- [brainglobe.info](https://brainglobe.info/)
+- [howto.neuroinformatics.dev](https://howto.neuroinformatics.dev/)
