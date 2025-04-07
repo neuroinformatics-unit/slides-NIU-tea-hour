@@ -123,8 +123,7 @@ Whole brain microscopy
 :::
 
 
-## Visualisation {background-video="img/brainglobe/cellfinder_small.mp4" background-video-loop="true"}
-### [`brainrender`](https://github.com/brainglobe/brainrender)
+## {background-video="img/brainglobe/cellfinder_small.mp4" background-video-loop="true"}
 
 ::: footer
 [Claudi et al. eLife (2021)](https://doi.org/10.7554/eLife.65751)
@@ -139,14 +138,13 @@ Adapted from Figure 1 of [Hansen et al. (2025)](https://doi.org/10.1101/2025.01.
 :::
 
 ::: footer
-
 [Claudi et al. (2024)](https://doi.org/10.5281/zenodo.10375287)
 :::
 
 # Version 2
 Expanding access
 
-## [Building novel atlases](https://github.com/brainglobe/brainglobe-template-builder)
+## Building novel atlases
 ![](img/brainglobe/blackcap.gif){fig-align="center"}
 
 ::: footer
@@ -162,7 +160,7 @@ Expanding access
 
 
 ## Consistent napari environment
-![](img/brainglobe/brainrender-napari.png){fig-align="center"}
+![](img/brainglobe/brainrender-napari-mouse.png){fig-align="center"}
 
 ::: footer
 [github.com/brainglobe/brainrender-napari](https://github.com/brainglobe/brainrender-napari)
