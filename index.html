@@ -272,9 +272,9 @@
 <h2>What we do</h2>
 <div>
 <ul>
-<li class="fragment"><strong>Novel software</strong> (anatomy, electrophysiology, functional imaging, behaviour, data management)</li>
-<li class="fragment"><strong>Collaborations</strong> (data science, software development, productionisation)</li>
-<li class="fragment"><strong>Spreading knowledge</strong> (teaching, documentation, ad-hoc help)</li>
+<li class="fragment"><strong>Novel software:</strong> anatomy, electrophysiology, functional imaging, behaviour, data management</li>
+<li class="fragment"><strong>Collaborations:</strong> data science, software development, productionisation</li>
+<li class="fragment"><strong>Spreading knowledge:</strong> teaching, documentation, ad-hoc help</li>
 </ul>
 </div>
 </section>
@@ -315,8 +315,42 @@
 <p><a href="https://movement.neuroinformatics.dev/">movement.neuroinformatics.dev</a></p>
 </div>
 </section>
-<section id="movement-example-applications" class="slide level2">
+<section id="movement-example-applications" class="slide level2 smaller">
 <h2><code>movement</code> example applications</h2>
+<p>See <a href="https://movement.neuroinformatics.dev/examples/">movement.neuroinformatics.dev/examples</a> for more.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[25, 25, 20, 20], [40, 20, 40]]">
+<div class="quarto-layout-row">
+<div class="fragment quarto-layout-cell" data-fragment-index="2" style="flex-basis: 27.8%;justify-content: center;">
+<p><img data-src="img/behaviour/centroid_trajectory.png"></p>
+</div>
+<div class="fragment quarto-layout-cell" data-fragment-index="2" style="flex-basis: 27.8%;justify-content: center;">
+<p><img data-src="img/behaviour/occupancy_heatmap.png"></p>
+</div>
+<div class="fragment quarto-layout-cell" data-fragment-index="3" style="flex-basis: 22.2%;justify-content: center;">
+<p><img data-src="img/behaviour/rois.png"></p>
+</div>
+<div class="fragment quarto-layout-cell" data-fragment-index="3" style="flex-basis: 22.2%;justify-content: center;">
+<p><img data-src="img/behaviour/head_direction_angle.png"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="fragment quarto-layout-cell" data-fragment-index="1" style="flex-basis: 40.0%;justify-content: center;">
+<p><img data-src="img/behaviour/raw_vs_clean.png"></p>
+</div>
+<div class="fragment quarto-layout-cell" data-fragment-index="4" style="flex-basis: 20.0%;justify-content: center;">
+<p><img data-src="img/behaviour/pupil_keypoints.png"></p>
+</div>
+<div class="fragment quarto-layout-cell" data-fragment-index="4" style="flex-basis: 40.0%;justify-content: center;">
+<p><img data-src="img/behaviour/pupil_velocity_black.png"></p>
+</div>
+</div>
+</div>
+<div class="footer">
+<p><a href="https://movement.neuroinformatics.dev/user_guide/input_output.html#sample-data">Sample data</a>: <strong>Elevated Plus Maze</strong> from <em>Loukia Katsouri</em> | <strong>Pupil Tracking</strong> from <em>Sepi Keshavarzi</em>.</p>
+</div>
 </section>
 <section id="movement-gui" class="slide level2">
 <h2><code>movement</code> GUI</h2>
@@ -333,14 +367,13 @@
 </section>
 <section id="electrophysiology" class="slide level2">
 <h2>Electrophysiology</h2>
-<h3 id="spikeinterface">SpikeInterface</h3>
 
 <img data-src="img/electrophysiology/spikeinterface.png" class="r-stretch"><div class="footer">
 <p><a href="https://spikeinterface.readthedocs.io/en/stable/">spikeinterface.readthedocs.io</a></p>
 </div>
 </section>
 <section id="spikewrap" class="slide level2">
-<h2>SpikeWrap</h2>
+<h2><code>spikewrap</code></h2>
 <ul>
 <li>SpikeInterface wrapper</li>
 <li>Process entire experiment</li>
@@ -351,7 +384,7 @@
 </div>
 </section>
 <section id="spikewrap-1" class="slide level2 smaller">
-<h2>SpikeWrap</h2>
+<h2><code>spikewrap</code></h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href=""></a><span class="im">import</span> spikewrap <span class="im">as</span> sw</span>
 <span id="cb1-2"><a href=""></a></span>
 <span id="cb1-3"><a href=""></a>subject_path <span class="op">=</span> sw.get_example_data_path() <span class="op">/</span> <span class="st">"rawdata"</span> <span class="op">/</span> <span class="st">"sub-001"</span></span>
@@ -381,40 +414,18 @@
 <p><a href="https://spikewrap.neuroinformatics.dev/">spikewrap.neuroinformatics.dev</a></p>
 </div>
 </section>
-<section id="spikewrap-2" class="slide level2 smaller">
-<h2>SpikeWrap</h2>
-<pre><code>└── derivatives/
-    └── sub-001/
-        └── ses-001/
-            └── ephys/
-                ├── run-001/
-                │   ├── preprocessed/
-                │   │   ├── shank_0/
-                │   │   │   └── si_recording/
-                │   │   │       └── &lt;spikeinterface binary&gt;
-                │   │   └── shank_1/
-                │   │       └── si_recording/
-                │   │           └── &lt;spikeinterface binary&gt;      
-                │   └── sync/
-                │       └── sync_channel.npy
-                └── run-002/
-                    └── ...    </code></pre>
-<div class="footer">
-<p><a href="https://spikewrap.neuroinformatics.dev/">spikewrap.neuroinformatics.dev</a></p>
-</div>
-</section>
 <section id="optophysiology" class="slide level2 smaller">
 <h2>Optophysiology</h2>
 <p>Tools for multiphoton calcium imaging.</p>
 <div class="columns">
 <div class="column" style="width:65%;">
-<h4 id="derotation">Derotation</h4>
+<h4 id="derotation"><code>derotation</code></h4>
 <p><img data-src="img/optophysiology/derotation.gif"></p>
-<p>Derotation of multiphoton movies acquired with a rotating stage. Almost completed.</p>
+<p><code>derotation</code> of multiphoton movies acquired with a rotating stage.</p>
 </div><div class="column" style="width:35%;">
-<h4 id="photon-mosaic">Photon-mosaic</h4>
+<h4 id="photon-mosaic"><code>photon-mosaic</code></h4>
 <p><img data-src="img/optophysiology/photon-mosaic.png"></p>
-<p>Snakemake workflow to run calcium imaging pipelines in the cluster. In development.</p>
+<p>Automated workflow to run calcium imaging pipelines in the cluster.</p>
 </div></div>
 </section>
 <section id="brainglobe" class="slide level2 smaller scrollable">
@@ -546,9 +557,8 @@
 <p><a href="https://doi.org/10.7554/eLife.65751">Claudi et al.&nbsp;eLife (2021)</a></p>
 </div>
 </section>
-<section id="visualisation-1" class="slide level2" data-background-video="img/brainglobe/cellfinder_small.mp4" data-background-video-loop="true">
-<h2>Visualisation</h2>
-<h3 id="brainrender-1"><a href="https://github.com/brainglobe/brainrender"><code>brainrender</code></a></h3>
+<section id="section" class="slide level2" data-background-video="img/brainglobe/cellfinder_small.mp4" data-background-video-loop="true">
+<h2></h2>
 <div class="footer">
 <p><a href="https://doi.org/10.7554/eLife.65751">Claudi et al.&nbsp;eLife (2021)</a></p>
 </div>
@@ -568,21 +578,8 @@
 <h1>Version 2</h1>
 <p>Expanding access</p>
 </section>
-<section id="adding-new-atlases" class="slide level2 smaller">
-<h2>Adding new atlases</h2>
-<ul>
-<li>Latest version of Waxholm rat</li>
-<li>Axolotl</li>
-<li>Prarie Vole</li>
-<li>Princeton RAtlas</li>
-<li>Cuttlefish</li>
-<li>Developmental Mouse Brain atlas</li>
-<li>NHP</li>
-<li>Human</li>
-</ul>
-</section>
 <section id="building-novel-atlases" class="slide level2">
-<h2><a href="https://github.com/brainglobe/brainglobe-template-builder">Building novel atlases</a></h2>
+<h2>Building novel atlases</h2>
 
 <img data-src="img/brainglobe/blackcap.gif" class="quarto-figure quarto-figure-center r-stretch"><div class="footer">
 <p><a href="https://doi.org/10.1101/2025.03.04.641293">Sirmpilatze, Felder, Abdulazhanova et al.&nbsp;bioRxiv (2025)</a></p>
@@ -598,7 +595,7 @@
 <section id="consistent-napari-environment" class="slide level2">
 <h2>Consistent napari environment</h2>
 
-<img data-src="img/brainglobe/brainrender-napari.png" class="quarto-figure quarto-figure-center r-stretch"><div class="footer">
+<img data-src="img/brainglobe/brainrender-napari-mouse.png" class="quarto-figure quarto-figure-center r-stretch"><div class="footer">
 <p><a href="https://github.com/brainglobe/brainrender-napari">github.com/brainglobe/brainrender-napari</a></p>
 </div>
 </section>
@@ -673,44 +670,32 @@
 <div class="code-with-filename-file">
 <pre><strong>my_script.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="my_script.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href=""></a><span class="im">from</span> datashuttle <span class="im">import</span> DataShuttle</span>
-<span id="cb3-2"><a href=""></a></span>
-<span id="cb3-3"><a href=""></a>project <span class="op">=</span> DataShuttle(<span class="st">"my_first_project"</span>)</span>
-<span id="cb3-4"><a href=""></a>project.make_config_file(</span>
-<span id="cb3-5"><a href=""></a>    local_path<span class="op">=</span><span class="vs">r"C:\Users\Joe\data\local\my_first_project"</span>,</span>
-<span id="cb3-6"><a href=""></a>    central_path<span class="op">=</span><span class="vs">r"C:\Users\Joe\data\central\my_first_project"</span>,</span>
-<span id="cb3-7"><a href=""></a>    connection_method<span class="op">=</span><span class="st">"local_filesystem"</span>,</span>
-<span id="cb3-8"><a href=""></a>)</span>
-<span id="cb3-9"><a href=""></a></span>
-<span id="cb3-10"><a href=""></a>project.create_folders(</span>
-<span id="cb3-11"><a href=""></a>    top_level_folder<span class="op">=</span><span class="st">"rawdata"</span>,</span>
-<span id="cb3-12"><a href=""></a>    sub_names<span class="op">=</span><span class="st">"sub-001"</span>,</span>
-<span id="cb3-13"><a href=""></a>    ses_names<span class="op">=</span><span class="st">"ses-001_@DATE@"</span>,</span>
-<span id="cb3-14"><a href=""></a>    datatype<span class="op">=</span>[<span class="st">"behav"</span>, <span class="st">"ephys"</span>]</span>
-<span id="cb3-15"><a href=""></a>)</span>
-<span id="cb3-16"><a href=""></a></span>
-<span id="cb3-17"><a href=""></a>project.upload_entire_project()</span>
-<span id="cb3-18"><a href=""></a></span>
-<span id="cb3-19"><a href=""></a>project.download_custom(</span>
-<span id="cb3-20"><a href=""></a>    top_level_folder<span class="op">=</span><span class="st">"rawdata"</span>,</span>
-<span id="cb3-21"><a href=""></a>    sub_names<span class="op">=</span><span class="st">"all"</span>,</span>
-<span id="cb3-22"><a href=""></a>    ses_names<span class="op">=</span><span class="st">"ses-001_@*@"</span>,</span>
-<span id="cb3-23"><a href=""></a>    datatype<span class="op">=</span><span class="st">"behav"</span></span>
-<span id="cb3-24"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2" data-filename="my_script.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href=""></a><span class="im">from</span> datashuttle <span class="im">import</span> DataShuttle</span>
+<span id="cb2-2"><a href=""></a></span>
+<span id="cb2-3"><a href=""></a>project <span class="op">=</span> DataShuttle(<span class="st">"my_first_project"</span>)</span>
+<span id="cb2-4"><a href=""></a>project.make_config_file(</span>
+<span id="cb2-5"><a href=""></a>    local_path<span class="op">=</span><span class="vs">r"C:\Users\Joe\data\local\my_first_project"</span>,</span>
+<span id="cb2-6"><a href=""></a>    central_path<span class="op">=</span><span class="vs">r"C:\Users\Joe\data\central\my_first_project"</span>,</span>
+<span id="cb2-7"><a href=""></a>    connection_method<span class="op">=</span><span class="st">"local_filesystem"</span>,</span>
+<span id="cb2-8"><a href=""></a>)</span>
+<span id="cb2-9"><a href=""></a></span>
+<span id="cb2-10"><a href=""></a>project.create_folders(</span>
+<span id="cb2-11"><a href=""></a>    top_level_folder<span class="op">=</span><span class="st">"rawdata"</span>,</span>
+<span id="cb2-12"><a href=""></a>    sub_names<span class="op">=</span><span class="st">"sub-001"</span>,</span>
+<span id="cb2-13"><a href=""></a>    ses_names<span class="op">=</span><span class="st">"ses-001_@DATE@"</span>,</span>
+<span id="cb2-14"><a href=""></a>    datatype<span class="op">=</span>[<span class="st">"behav"</span>, <span class="st">"ephys"</span>]</span>
+<span id="cb2-15"><a href=""></a>)</span>
+<span id="cb2-16"><a href=""></a></span>
+<span id="cb2-17"><a href=""></a>project.upload_entire_project()</span>
+<span id="cb2-18"><a href=""></a></span>
+<span id="cb2-19"><a href=""></a>project.download_custom(</span>
+<span id="cb2-20"><a href=""></a>    top_level_folder<span class="op">=</span><span class="st">"rawdata"</span>,</span>
+<span id="cb2-21"><a href=""></a>    sub_names<span class="op">=</span><span class="st">"all"</span>,</span>
+<span id="cb2-22"><a href=""></a>    ses_names<span class="op">=</span><span class="st">"ses-001_@*@"</span>,</span>
+<span id="cb2-23"><a href=""></a>    datatype<span class="op">=</span><span class="st">"behav"</span></span>
+<span id="cb2-24"><a href=""></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section></section>
-<section id="resources" class="title-slide slide level1 center">
-<h1>Resources</h1>
-<div>
-<ul>
-<li class="fragment"><a href="https://howto.neuroinformatics.dev/">howto.neuroinformatics.dev</a></li>
-<li class="fragment"><a href="https://python-cookiecutter.neuroinformatics.dev/">python-cookiecutter.neuroinformatics.dev</a></li>
-<li class="fragment"><a href="neuroinformatics.zulipchat.com">neuroinformatics.zulipchat.com</a></li>
-<li class="fragment"><a href="https://forum.image.sc/tag/brainglobe">forum.image.sc</a></li>
-</ul>
-</div>
-</section>
-
 <section id="teaching" class="title-slide slide level1 center">
 <h1>Teaching</h1>
 <div>
@@ -735,8 +720,16 @@
 <li class="fragment">Get in touch</li>
 <li class="fragment">Get involved</li>
 </ul>
-<p><a href="https://neuroinformatics.dev/">neuroinformatics.dev</a></p>
 </div>
+</section>
+
+<section id="resources" class="title-slide slide level1 center">
+<h1>Resources</h1>
+<ul>
+<li><a href="https://neuroinformatics.dev/">neuroinformatics.dev</a></li>
+<li><a href="https://brainglobe.info/">brainglobe.info</a></li>
+<li><a href="https://howto.neuroinformatics.dev/">howto.neuroinformatics.dev</a></li>
+</ul>
 
 </section>
     </div>
