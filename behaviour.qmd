@@ -25,6 +25,11 @@ Modern computational neuroethology workflow
 ## `movement` example applications
 
 
+
+::: footer
+See [movement.neuroinformatics.dev/examples](https://movement.neuroinformatics.dev/examples/) for more.
+:::
+
 ## `movement` GUI
 {{< video "img/behaviour/gui_tracks_demo.mp4" >}}
 
