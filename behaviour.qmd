@@ -22,12 +22,44 @@ Modern computational neuroethology workflow
 [movement.neuroinformatics.dev](https://movement.neuroinformatics.dev/)
 :::
 
-## `movement` example applications
+## `movement` example applications {.smaller}
 
+See [movement.neuroinformatics.dev/examples](https://movement.neuroinformatics.dev/examples/) for more.
 
+::: {layout="[[25, 25, 20, 20], [40, 20, 40]]"}
+
+::: {.fragment fragment-index=2}
+![](img/behaviour/centroid_trajectory.png)
+:::
+
+::: {.fragment fragment-index=2}
+![](img/behaviour/occupancy_heatmap.png)
+:::
+
+::: {.fragment fragment-index=3}
+![](img/behaviour/rois.png)
+:::
+
+::: {.fragment fragment-index=3}
+![](img/behaviour/head_direction_angle.png)
+:::
+
+::: {.fragment fragment-index=1}
+![](img/behaviour/raw_vs_clean.png)
+:::
+
+::: {.fragment fragment-index=4}
+![](img/behaviour/pupil_keypoints.png)
+:::
+
+::: {.fragment fragment-index=4}
+![](img/behaviour/pupil_velocity_black.png)
+:::
+
+:::
 
 ::: footer
-See [movement.neuroinformatics.dev/examples](https://movement.neuroinformatics.dev/examples/) for more.
+[Sample data](https://movement.neuroinformatics.dev/user_guide/input_output.html#sample-data): __Elevated Plus Maze__ from *Loukia Katsouri* | __Pupil Tracking__ from *Sepi Keshavarzi*.
 :::
 
 ## `movement` GUI
