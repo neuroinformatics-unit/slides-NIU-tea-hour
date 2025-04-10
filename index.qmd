@@ -92,7 +92,9 @@ my-custom-stuff:
 - [software-skills.neuroinformatics.dev](https://software-skills.neuroinformatics.dev/)
 :::
 
-# NIU Open Software Week
+# Open Software Week
+![](img/niu-osw-schedule.png){fig-align="center"}
+11th - 15th August 2025 - Save the date!
 
 # End
 :::{.incremental}
