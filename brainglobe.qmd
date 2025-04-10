@@ -167,7 +167,7 @@ Expanding access
 :::
 
 ## Support for more data types
-![](img/brainglobe/registered_data_atlas.png){fig-align="center"}
+![](img/brainglobe/inverse_annotation_annotation_front.png){fig-align="center"}
 
 ::: footer
 [github.com/brainglobe/brainglobe-registration](https://github.com/brainglobe/brainglobe-registration)
