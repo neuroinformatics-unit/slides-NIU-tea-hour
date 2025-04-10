@@ -93,7 +93,7 @@ my-custom-stuff:
 :::
 
 # Open Software Week
-![](img/niu-osw-schedule.png){fig-align="center" height=300%}
+![](img/niu-osw-schedule.png){fig-align="center"}
 11th - 15th August 2025 - Save the date!
 
 # End
