@@ -1,11 +1,10 @@
-## Optophysiology {.smaller}
-Tools for multiphoton calcium imaging.
+## Functional imaging {.smaller}
 
 ::: {.columns}
 ::: {.column width="65%"}
 #### `derotation`
 
-![](img/optophysiology/derotation.gif)
+![](img/optophysiology/derotation_setup.png){ width=70% fig-align=center}
 
 `derotation` of multiphoton movies acquired with a rotating stage. 
 :::
