@@ -63,13 +63,16 @@ See [movement.neuroinformatics.dev/examples](https://movement.neuroinformatics.d
 :::
 
 ## `movement` GUI
-{{< video "img/behaviour/gui_tracks_demo.mp4" >}}
+{{< video "img/behaviour/gui_tracks_demo.mp4" height="640" width="960" >}}
 
 
 ## `ethology`: mix-and-match computer vision tools
 
-
-{{< video img/behaviour/sam2_demo_flipped.mp4 aspect-ratio="4x3" >}}
+<center>
+<video autoplay="true" loop="true" aspect-ratio="4x3">
+<source src="img/behaviour/sam2_demo_flipped.mp4"> 
+</video>
+</center>
 
 <!-- - Mix and match computer vision tools, compare performance of equivalent methods -->
 <!-- - Use annotations as prompts for segmentation models, such as Segment Anything. -->
